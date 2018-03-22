@@ -9,7 +9,7 @@
 --------------------------------------------------------------*/
 body {
   background: #E9222E;
-  color: #666666;
+  color: black;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   width: 100%;
@@ -363,7 +363,7 @@ box-shadow: inset 0px -10px 214px -5px rgba(0,0,0,0.75);
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #E9222E;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -593,8 +593,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
 }
 
+.ironman .content img,
+.capi .content img{
+    width: 100%;
+}
+
 #about .content h3 {
-  color: #777;
+  color: white;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -627,7 +632,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Product Featuress Section
 --------------------------------*/
 #features {
-  background: linear-gradient(black, red, black);
+  background: linear-gradient(red, yellow, green);
   padding: 60px 0 0 0;
   z-index: 2;
   
@@ -764,9 +769,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(233, 34, 46, 0.65), rgba(233, 34, 46, 0.2)), url(../img/fighto.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
+  text-align: center;
+}
+#call-to-action img{
+    display: inline-block;
+    height: 100px;
+    margin: auto;
 }
 
 #call-to-action .cta-title {
