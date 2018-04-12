@@ -465,7 +465,7 @@ box-shadow: inset 0px -10px 214px -5px rgba(0,0,0,0.75);
 }
 
 #mobile-nav ul li a:hover {
-  color: #E9222E;
+  color: white !important;
 }
 
 #mobile-nav ul li li {
@@ -532,7 +532,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #fff;
   text-align: center;
   font-weight: 400;
 }
@@ -549,9 +549,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(0deg, #ea222e 0%, #000000 100%);
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.member{
+    color: white;
 }
 
 /* Section with background
@@ -567,8 +571,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img {
-  height: 510px;
-  overflow: hidden;
+    height: 1000px;
+    overflow: hidden;
 }
 
 #about .about-img img {
@@ -592,6 +596,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 300;
   font-size: 24px;
 }
+
 
 .ironman .content img,
 .capi .content img{
